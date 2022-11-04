@@ -27,7 +27,7 @@ function getUserInfo(){
             if(res.status !== 0){
                 return layui.layer.msg('获取用户信息失败！')
             }
-            console.log(res.data);
+            // console.log(res.data);
             //调用renderAvatar渲染头像
             renderAvatar(res.data)            
         }
